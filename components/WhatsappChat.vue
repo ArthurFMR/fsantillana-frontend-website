@@ -26,7 +26,7 @@
    
       <div class="has-margin-bottom-1 has-margin-left-1 has-margin-right-1 ">
         <input v-model="message" class="has-padding-left-1 has-margin-bottom-1" type="text" placeholder="Escribenos un messaje" />
-        <a @click="replaceSpaces" target="_blank" :href="'https://wa.me/8296902018?text=' + message">
+        <a @click="replaceSpaces" target="_blank" :href="'https://wa.me/8298910424?text=' + message">
         <img src="~/assets/imgs/send.png" width="15%" align="right"/>
         </a>
       </div>
