@@ -1,0 +1,22 @@
+{
+  "name": "Fsantillana-frontend-website",
+  "version": "1.0.0",
+  "description": "Frontend website for Fsantillana company",
+  "author": "BitPYR",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "buefy": "^0.8.10",
+    "bulma": "^0.8.0",
+    "node-sass": "^4.13.1",
+    "nuxt": "^2.0.0",
+    "sass-loader": "^8.0.2"
+  },
+  "devDependencies": {}
+}
