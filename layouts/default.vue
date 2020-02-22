@@ -4,8 +4,6 @@
     <Carousel />
     <main>
       <nuxt />
-      <FaccebookChat/>
-      <CliengoChat/>
     </main>
     <Footer />
   </div>
