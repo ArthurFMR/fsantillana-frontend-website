@@ -105,19 +105,15 @@
         </div>
       </div>
     </div>
-      <FaccebookChat/>
-    <CliengoChat/>
   </div>
 </template>
 
 <script>
 import axios from "axios";
-import FaccebookChat from "@/components/FacebookChat";
-import CliengoChat from "@/components/CliengoChat";
+
 export default {
   components:{
-     FaccebookChat,
-    CliengoChat
+
   },
   data() {
     return {

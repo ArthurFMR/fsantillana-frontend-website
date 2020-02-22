@@ -1,4 +1,6 @@
-
+module.exports = {
+  plugins: [{ src: "~plugins/crisp.js", ssr: false }]
+};
 export default {
   mode: 'universal',
   /*
@@ -45,6 +47,8 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
   ],
+
+ 
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
