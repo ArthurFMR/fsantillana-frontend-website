@@ -2,8 +2,6 @@
   <div>
     <Services/>
     <Contact/>
-    <FaccebookChat/>
-    <CliengoChat/>
   </div>
 </template>
 
