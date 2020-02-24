@@ -5,6 +5,7 @@
     <main>
       <nuxt />
     </main>
+    <CrispChat/>
     <Footer />
   </div>
 </template>
@@ -13,6 +14,7 @@ import NavBar from "@/components/WebNavbar";
 import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import WassappChat from "@/components/WhatsappChat";
+import CrispChat from "@/components/CrispChat";
 
 
 export default {
@@ -20,6 +22,7 @@ export default {
     NavBar,
     Carousel,
     Footer,
+    CrispChat,
   },
 
  

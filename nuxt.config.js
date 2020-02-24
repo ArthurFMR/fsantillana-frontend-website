@@ -65,6 +65,3 @@ export default {
   }
 }
 
-module.exports = {
-  plugins: [{ src: "~plugins/crisp.js", ssr: false }]
-};
