@@ -12,7 +12,6 @@
 import NavBar from "@/components/WebNavbar";
 import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
-import WassappChat from "@/components/WhatsappChat";
 
 export default {
   components: {

@@ -32,7 +32,7 @@ export default {
   */
   plugins: [
     '~plugins/buefy.js',
-    '~plugins/crip.js',
+    { src: "~plugins/crisp.js", ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
@@ -44,7 +44,7 @@ export default {
   */
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
+    '@nuxtjs/axios'
   ],
 
  
@@ -65,4 +65,3 @@ export default {
     }
   }
 }
-

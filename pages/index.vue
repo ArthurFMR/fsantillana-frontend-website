@@ -13,6 +13,7 @@ import Contact from "@/components/ContactUs";
 export default {
   components: {
     Services,
+    Contact
   },
 };
 </script>
