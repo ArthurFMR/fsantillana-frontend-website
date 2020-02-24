@@ -1,6 +1,4 @@
-module.exports = {
-  plugins: [{ src: "~plugins/crisp.js", ssr: false }]
-};
+
 export default {
   mode: 'universal',
   /*
@@ -66,3 +64,7 @@ export default {
     }
   }
 }
+
+module.exports = {
+  plugins: [{ src: "~plugins/crisp.js", ssr: false }]
+};
