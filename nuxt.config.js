@@ -31,8 +31,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    ['~plugins/buefy.js'],
-    [{ src: "~plugins/crisp.js", ssr: false }]
+    '~plugins/buefy.js',
+    '~plugins/crip.js',
   ],
   /*
   ** Nuxt.js dev-modules
