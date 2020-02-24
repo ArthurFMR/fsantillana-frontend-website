@@ -5,7 +5,7 @@
     <main>
       <nuxt />
     </main>
-    <messanger />
+    <messanger class="fb-chat" />
     <Footer />
   </div>
 </template>
