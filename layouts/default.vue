@@ -5,7 +5,6 @@
     <main>
       <nuxt />
     </main>
-    
     <Footer />
   </div>
 </template>
@@ -15,13 +14,12 @@ import Carousel from "@/components/Carousel";
 import Footer from "@/components/Footer";
 import WassappChat from "@/components/WhatsappChat";
 
-
-
 export default {
   components: {
     NavBar,
     Carousel,
     Footer,
+
   },
 
  
