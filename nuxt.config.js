@@ -32,7 +32,8 @@ export default {
   */
   plugins: [
     '~plugins/buefy.js',
-    { src: "~plugins/crisp.js", ssr: false }
+    { src: "~plugins/crisp.js", ssr: false },
+    { src: "~plugins/messanger.js", ssr: false }
   ],
   /*
   ** Nuxt.js dev-modules
