@@ -14,7 +14,10 @@
 
 <script>
 import axios from "axios";
+import CrispChat from "@/components/CrispChat";
 export default {
+  components:{
+  },
   data() {
     return {
       info: {}
