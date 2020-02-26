@@ -13,11 +13,24 @@
           {{ info.email }}
         </div>
         <div class="has-margin-top-3">
-          <a :href="info.facebook" target="_blank" v-if="info.facebook!= ''">
+          <a
+            :href="info.facebook"
+            target="_blank"
+            v-if="info.facebook!= ''"
+            class="is-inline-block"
+          >
             <img src="~/assets/imgs/facebook-icon.png" class="img-is-white image is-32x32" />
           </a>
-          <a :href="info.instagram" target="_blank" v-if="info.instagram!= ''">
+          <a
+            :href="info.instagram"
+            target="_blank"
+            v-if="info.instagram!= ''"
+            class="is-inline-block"
+          >
             <img src="~/assets/imgs/instagram-icon.png" class="img-is-white image is-32x32" />
+          </a>
+          <a :href="'https://wa.me/' + whatsapp" target="_blank" v-if="info.whatsapp!= ''" class="is-inline-block">
+            <img src="~/assets/imgs/whatsapp-black.png" class="img-is-white image is-32x32" />
           </a>
         </div>
       </div>
@@ -50,10 +63,12 @@
 
 <script>
 import axios from "axios";
+
 export default {
   data() {
     return {
-      info: {}
+      info: {},
+      whatsapp: ""
     };
   },
   created() {
@@ -61,11 +76,12 @@ export default {
   },
   methods: {
     async getInfo() {
-        const server = 'https://fsantillana-api-website.herokuapp.com'
+      const server = "https://fsantillana-api-website.herokuapp.com";
       try {
         const url = `${server}/api/v1.0/companyinfo/`;
         const res = await axios.get(url);
         this.info = res.data[0];
+        this.whatsapp = (res.data[0].whatsapp).replace(/\s+|-/g, "")
       } catch (error) {
         console.log(error);
       }

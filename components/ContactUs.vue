@@ -8,6 +8,9 @@
           <img src="~/assets/imgs/address-icon.png" class="img-icon" />
           {{ info.address }}
           <br />
+          <img src="~/assets/imgs/whatsapp-blue.png" class="img-icon image is-24x24" />
+          +{{ info.whatsapp }}
+          <br />
           <img src="~/assets/imgs/phone-icon.png" class="img-icon" />
           {{ info.tel }}
           <br />

@@ -7,8 +7,10 @@
         <h2 class="subtitle">{{ info.subtitle_name }}</h2>
       </div>
       <div class="call-us">
+        <img src="~/assets/imgs/whatsapp-green.png" class="image is-24x24 img-icon" />
+        Escribenos: +{{ info.whatsapp }}<br>
         <img src="~/assets/imgs/phone-icon.png" class="image is-24x24 img-icon" />
-        Llámanos: {{ info.tel }}
+        Llámanos: {{ info.tel }} 
       </div>
     </header>
     <nav class="is-info navbar is-fixed-top"  role="navigation" aria-label="main navigation">

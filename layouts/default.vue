@@ -5,7 +5,6 @@
     <main>
       <nuxt />
     </main>
-    
     <Footer />
   </div>
 </template>
