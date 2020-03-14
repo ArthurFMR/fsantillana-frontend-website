@@ -56,7 +56,7 @@
       </div>
     </div>
     <div class="top-border has-text-centered has-margin-top-3">
-      <p>©Copyright 2020, Design and Developed by: Bit_pyr</p>
+      <p>©Copyright 2020, Design and Developed by: </p>
     </div>
   </footer>
 </template>

@@ -1,6 +1,10 @@
 <template>
   <section id="services" class="sections">
-      <div class="container">
+    <b-message title="Nota Importante" type="is-warning" aria-close-label="Close message">
+      Las imagenes no cargan ya que el back-end esta alojando en un servidor gratuito y permite el alojamiento
+      de archivos en un tiempo limitado. (Este proyecto es para fines Demostrativos)
+    </b-message>
+    <div class="container">
     <h1 class="has-text-centered is-size-2 has-margin-bottom-1">Nuestros <strong>Servicios</strong></h1>
     <div class="columns is-multiline">
       <progress v-if="isLoading" class="progress is-small is-info" max="100"></progress>

@@ -8,9 +8,9 @@
       </div>
       <div class="call-us">
         <img src="~/assets/imgs/whatsapp-green.png" class="image is-24x24 img-icon" />
-        Escribenos: +{{ info.whatsapp }}<br>
+        Escríbenos: +{{ info.whatsapp }}<br>
         <img src="~/assets/imgs/phone-icon.png" class="image is-24x24 img-icon" />
-        Llámanos: {{ info.tel }} 
+        Llámenos: {{ info.tel }} 
       </div>
     </header>
     <nav class="is-info navbar is-fixed-top"  role="navigation" aria-label="main navigation">
