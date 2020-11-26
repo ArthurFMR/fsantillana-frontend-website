@@ -1,6 +1,11 @@
-# Fsantillana-frontend-website
+# FSantillana Frontend Website
+It is a demonstrative project for a client. ** Note ** the images not load because the backend is deploy on a free server tier (heroku) and only allow uploads images for a short time, after that time passed the images are deleted.
 
-> Frontend website for Fsantillana company
+# Demo
+https://fsantillana.netlify.app/
+
+# Backend Project
+https://github.com/ArthurFMR/fsantillana-backend-website
 
 ## Build Setup
 
